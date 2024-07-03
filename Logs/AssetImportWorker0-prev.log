@@ -1,0 +1,684 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 16109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity/ESCAPE
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59840
+Successfully changed project path to: C:/Unity/ESCAPE
+C:/Unity/ESCAPE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26188] Host "[IP] 210.125.74.56 [Port] 0 [Flags] 2 [Guid] 3781122026 [EditorId] 3781122026 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TRKI2BO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26188] Host "[IP] 210.125.74.56 [Port] 0 [Flags] 2 [Guid] 3781122026 [EditorId] 3781122026 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TRKI2BO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/ESCAPE/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3619
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015610 seconds.
+- Loaded All Assemblies, in  0.374 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.218 seconds
+Domain Reload Profiling: 588ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (167ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.265 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.279 seconds
+Domain Reload Profiling: 538ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (6ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (46.8 KB). Loaded Objects now: 478.
+Memory consumption went from 45.0 MB to 44.9 MB.
+Total: 1.714100 ms (FindLiveObjects: 0.032800 ms CreateObjectMapping: 0.003000 ms MarkObjects: 1.627300 ms  DeleteObjects: 0.050300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1715879.279589 seconds.
+  path: Assets/Projectile/Shoot/Resource/2/1_14.png
+  artifactKey: Guid(897e6d9336bff4345a65bc6283477404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/2/1_14.png using Guid(897e6d9336bff4345a65bc6283477404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '290a3cdc771c1bb0395ecfb32a5deb5c') in 0.163833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Projectile/Reload/Source/5/1_003.png
+  artifactKey: Guid(e5116d37096ef644bb53f3239be8de2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/5/1_003.png using Guid(e5116d37096ef644bb53f3239be8de2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6cce906d6d5532b5cc375f53e7e898a') in 0.024589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Projectile/Shoot/Resource/2/1_7.png
+  artifactKey: Guid(c159608f056d2b34c98d882cbbd743f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/2/1_7.png using Guid(c159608f056d2b34c98d882cbbd743f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbb19be0609efb21bb9fa007f057b1b3') in 0.023259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Projectile/Reload/Source/3/1_004.png
+  artifactKey: Guid(0d6da8da535b3e74eba72794f77596b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/3/1_004.png using Guid(0d6da8da535b3e74eba72794f77596b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e59ba4438b9c647bc679b4f35731339') in 0.024255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Projectile/Shoot/Resource/3/1_14.png
+  artifactKey: Guid(6e9c08a32680bb0429e755a91df8b003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/3/1_14.png using Guid(6e9c08a32680bb0429e755a91df8b003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a67858299cf6d76dc2726c60f9463b7') in 0.023107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Projectile/Reload/Source/2/1_001.png
+  artifactKey: Guid(b65fb76ac9d0dfc419fbe6b794e98a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/2/1_001.png using Guid(b65fb76ac9d0dfc419fbe6b794e98a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85580ab6943e10c4effdc543ad88b7de') in 0.026106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Projectile/Shoot/Resource/3/1_1.png
+  artifactKey: Guid(6b5e8a36ca4f3344c868d99af1df24df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/3/1_1.png using Guid(6b5e8a36ca4f3344c868d99af1df24df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f56451dc7f7cf417e9e200a8dad0a1e') in 0.024730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Projectile/Shoot/Resource/3/1_10.png
+  artifactKey: Guid(5ac1168ba7b8b464c879fe5e845f49b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/3/1_10.png using Guid(5ac1168ba7b8b464c879fe5e845f49b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24249a0cc7bf1e693715d9d31ca9a5f0') in 0.026888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Projectile/Shoot/Resource/3/1_7.png
+  artifactKey: Guid(4325e1e68efea6548967f414280c4fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/3/1_7.png using Guid(4325e1e68efea6548967f414280c4fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89f43377a4223d53646d056e59a2e04a') in 0.027096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Projectile/Projectile_Manager.prefab
+  artifactKey: Guid(1c694106a7066884fa3a147b42f1c129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Projectile_Manager.prefab using Guid(1c694106a7066884fa3a147b42f1c129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c476b8fbc407b70f68c92dab5e9c18d') in 0.013205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Projectile/Reload/Source/4/1_008.png
+  artifactKey: Guid(f006dcfce55a6b84ebf57df3e2478cf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/4/1_008.png using Guid(f006dcfce55a6b84ebf57df3e2478cf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fce050f0893f23cdd53425488def2aa') in 0.023746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Projectile/Reload/Source/5/1_000.png
+  artifactKey: Guid(611065fde78ce8e40920a95bc18c0687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/5/1_000.png using Guid(611065fde78ce8e40920a95bc18c0687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0583764d512d8f03dcbca68ede34436b') in 0.024299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Projectile/Reload/Source/6/1_009.png
+  artifactKey: Guid(75a21a8a80a8b164e8daeba12fe1ead2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/6/1_009.png using Guid(75a21a8a80a8b164e8daeba12fe1ead2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '534b98efee0be6f444e6d3f8da84d1f2') in 0.025026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Projectile/Shoot/Resource/3/1_4.png
+  artifactKey: Guid(781aae45e03af06488cadbe757f7b36a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/3/1_4.png using Guid(781aae45e03af06488cadbe757f7b36a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a51642e549ea8f68bb7baa4ce8f270d') in 0.025025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_6.png
+  artifactKey: Guid(45c1322d7b7ee6e4285e03190282bbb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_6.png using Guid(45c1322d7b7ee6e4285e03190282bbb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cfa6511d2cd6dc248788d1f361a7a54') in 0.027454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Projectile/Reload/Source/4/1_003.png
+  artifactKey: Guid(f774c3a2b5c23644497a2f4599caef9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/4/1_003.png using Guid(f774c3a2b5c23644497a2f4599caef9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c630b1b7b9492d28cd919a039013f894') in 0.025458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Projectile/Reload/Source/2/1_008.png
+  artifactKey: Guid(05104ea9e4316a5478744ade3164fa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/2/1_008.png using Guid(05104ea9e4316a5478744ade3164fa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a8ac54ebf29ca68a8ea98abcf198254') in 0.025244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Projectile/Shoot/Resource/2/1_5.png
+  artifactKey: Guid(3b201dd466513b244bf1c18b94dcadbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/2/1_5.png using Guid(3b201dd466513b244bf1c18b94dcadbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '209c4a5f6af94f775674b23cc61b68e4') in 0.024710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Projectile/Shoot/Resource/2/1_11.png
+  artifactKey: Guid(191113232d86ff44da77183e428bf7b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/2/1_11.png using Guid(191113232d86ff44da77183e428bf7b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23db4add6f251a683054709f1ec8c35d') in 0.025253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Projectile/Reload/Source/3/1_002.png
+  artifactKey: Guid(a919792e39cf4e74d88d8d2b590d20ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/3/1_002.png using Guid(a919792e39cf4e74d88d8d2b590d20ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8545307dd43f0deffeada2b368991e27') in 0.026059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_2.png
+  artifactKey: Guid(1c3bfd21bb9aba4429ad03d148ebb365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_2.png using Guid(1c3bfd21bb9aba4429ad03d148ebb365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f05522eb2bdf55a54ed3cc86b035b783') in 0.025960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_4.png
+  artifactKey: Guid(2954cd8f8a3e91349b440947e31bb7a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_4.png using Guid(2954cd8f8a3e91349b440947e31bb7a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '265fac51f057afea5dcd9639da7af7b8') in 0.025406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Projectile/Reload/Source/6/1_008.png
+  artifactKey: Guid(7ca06009cbd3e0c4a8395da022e1ce72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/6/1_008.png using Guid(7ca06009cbd3e0c4a8395da022e1ce72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0041d224b2ab408efd41015654037e7b') in 0.023909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Projectile/Reload/Source/3/1_006.png
+  artifactKey: Guid(449151ed156add04b964685a60cf78f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/3/1_006.png using Guid(449151ed156add04b964685a60cf78f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23762cc5ef8dd3b9891acaae56e4fae2') in 0.026451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Projectile/Reload/Source/6/1_007.png
+  artifactKey: Guid(a1ab3ea34ec239d469b594aac07b8eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/6/1_007.png using Guid(a1ab3ea34ec239d469b594aac07b8eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24dc289f391551f37eeb68da2f13f2a4') in 0.026447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Projectile/Reload.cs
+  artifactKey: Guid(b5e1d93552ef1284dbe706b76278d132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload.cs using Guid(b5e1d93552ef1284dbe706b76278d132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6e9f3af42f28c6bf6ccac9709427765') in 0.003255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_1.png
+  artifactKey: Guid(d322275a86aa1fb46ac56c86d99dea36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_1.png using Guid(d322275a86aa1fb46ac56c86d99dea36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a074a861103e69801b0e2ba14159cc8') in 0.024455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Projectile/Reload/Source/2/1_009.png
+  artifactKey: Guid(7b410365fb4c5c841875aa8af853bb5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/2/1_009.png using Guid(7b410365fb4c5c841875aa8af853bb5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b564e85acce8e418b731b5fe31f1255c') in 0.023733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_7.png
+  artifactKey: Guid(ae52452e69e398546868fdd537aef6d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Reload/Source/Reload_Fire/Reload_Fire_7.png using Guid(ae52452e69e398546868fdd537aef6d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff08509cd56f6786beb1068b62491481') in 0.026243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.100654 seconds.
+  path: Assets/Projectile/Shoot/Resource/4/1_12.png
+  artifactKey: Guid(8842dc204eddd784287e8a038567c92b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/4/1_12.png using Guid(8842dc204eddd784287e8a038567c92b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32b53ce4788b740d93ab33092098c8e7') in 0.027961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Projectile/Shoot/Resource/Red/Red_5.png
+  artifactKey: Guid(0fb9d1b10bce21c418bd5a9ea99edffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Red/Red_5.png using Guid(0fb9d1b10bce21c418bd5a9ea99edffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dac496ccf30cac9063586b7c82edef5e') in 0.028009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Projectile/Shoot/Resource/4/1_6.png
+  artifactKey: Guid(06a1f7e89e3b4144bb64c1e865b2d7b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/4/1_6.png using Guid(06a1f7e89e3b4144bb64c1e865b2d7b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bd937cc9b75d74691083f6b8c8f9742') in 0.027599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Projectile/Shoot/Resource/Fire/Fire_10.png
+  artifactKey: Guid(7948d30b0361a6f4dadfa2d72dbbee16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Fire/Fire_10.png using Guid(7948d30b0361a6f4dadfa2d72dbbee16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ebd1e0b2d787451aca238199589335d') in 0.026453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Projectile/Shoot/Resource/Fire/Fire_13.png
+  artifactKey: Guid(18c52edf7f1e7484ba8e404f4fc46126) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Fire/Fire_13.png using Guid(18c52edf7f1e7484ba8e404f4fc46126) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20d48fa0ecf44e841c41efd9cf9c54c2') in 0.025288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Projectile/Shoot/Resource/6/1_3.png
+  artifactKey: Guid(d9db50d0251086d49a32ee3c14a19765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/6/1_3.png using Guid(d9db50d0251086d49a32ee3c14a19765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee6f273643b82dab970598abada8ef62') in 0.027786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Projectile/Shoot/Resource/5/1_0.png
+  artifactKey: Guid(0f64ddda35efc9d47afc0f248409280f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/5/1_0.png using Guid(0f64ddda35efc9d47afc0f248409280f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2feeaf9157ea3f9c18f0ed7cf0393af1') in 0.027905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Projectile/Shoot/Resource/Fire/Fire_4.png
+  artifactKey: Guid(7dc1d234545891a4e9eca206f96ed912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Fire/Fire_4.png using Guid(7dc1d234545891a4e9eca206f96ed912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9429fe3143e36d9c2f214df1117b03a3') in 0.026184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Projectile/Shoot/Resource/Red/Red_4.png
+  artifactKey: Guid(a0dec4ea69d4a5f42860e2fd51f6c1a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Red/Red_4.png using Guid(a0dec4ea69d4a5f42860e2fd51f6c1a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44e6affd95abdefcca2e8c3dde5907fa') in 0.027119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Projectile/Shoot/Resource/6/1_10.png
+  artifactKey: Guid(b74b98158971136468f406855a6d8321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/6/1_10.png using Guid(b74b98158971136468f406855a6d8321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7614b2cb410f45a0c86b5fcd035959fd') in 0.027606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Projectile/Shoot/Resource/4/1_3.png
+  artifactKey: Guid(2d11b151c60795e46997ed0e5522ed20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/4/1_3.png using Guid(2d11b151c60795e46997ed0e5522ed20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b460b1ab1574184076e559d5d974e98') in 0.025920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Projectile/Shoot/Resource/Fire/Fire_12.png
+  artifactKey: Guid(80aa51dda33a4864a81b006f232c3486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Fire/Fire_12.png using Guid(80aa51dda33a4864a81b006f232c3486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '096feb0d89f9878d5bf81d15c6a4de63') in 0.026373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Projectile/Shoot/Resource/7/1_7.png
+  artifactKey: Guid(5262c2f656945784c98b6295e5186ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/7/1_7.png using Guid(5262c2f656945784c98b6295e5186ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8892a6af761ae5b751022af31efe3338') in 0.026802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Projectile/Shoot/Resource/Red/Red_10.png
+  artifactKey: Guid(0b657821f775a9c4283c5cd7930c8b3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Red/Red_10.png using Guid(0b657821f775a9c4283c5cd7930c8b3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '758d42bd201dadcfdf9d9f77186e1fb2') in 0.026341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Projectile/Shoot/Resource/Fire/Fire_0.controller
+  artifactKey: Guid(18879f3ce9f1ddb4caeebc0835790f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Fire/Fire_0.controller using Guid(18879f3ce9f1ddb4caeebc0835790f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1d875d95529300d74b99191a73dcc99') in 0.004728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Projectile/Shoot/Resource/4/1_7.png
+  artifactKey: Guid(4ca3ca544ff1c9a448c97f4524cd160b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/4/1_7.png using Guid(4ca3ca544ff1c9a448c97f4524cd160b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8019ea316e95f72c744ced6fd06ca663') in 0.026189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Projectile/Shoot/Resource/5/1_4.png
+  artifactKey: Guid(6aff1657d28f93c40925fed7b3ce9b39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/5/1_4.png using Guid(6aff1657d28f93c40925fed7b3ce9b39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d6fee77276d324a4839a5d0492858dd') in 0.025640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Projectile/Shoot/Resource/9/1_4.png
+  artifactKey: Guid(6a198494d4fa6aa46855c4b3f77bd151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/9/1_4.png using Guid(6a198494d4fa6aa46855c4b3f77bd151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '517e634fd602bbf47f0f82c4c7c8fb70') in 0.025190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Projectile/Shoot/Resource/5/1_10.png
+  artifactKey: Guid(6d5b914728b81ff4a80c8443d351b281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/5/1_10.png using Guid(6d5b914728b81ff4a80c8443d351b281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9fbaeff59f9255d23c3feeddc08f116') in 0.028837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Projectile/Shoot/Resource/Fire/Fire_7.png
+  artifactKey: Guid(2aeae71e362561d458fe3822512e19d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Fire/Fire_7.png using Guid(2aeae71e362561d458fe3822512e19d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29f099fe617d3485e15127894c089da6') in 0.025528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Projectile/Shoot/Resource/Red/Red_8.png
+  artifactKey: Guid(ff64296f46a3cbb4fbcdb9ea1b788fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Red/Red_8.png using Guid(ff64296f46a3cbb4fbcdb9ea1b788fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c86cec1290d7f261f5059438c5981feb') in 0.025189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Projectile/Shoot/Resource/Fire/Fire_3.png
+  artifactKey: Guid(7eccf5af8d63bb94b8c5b0674a281db0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Fire/Fire_3.png using Guid(7eccf5af8d63bb94b8c5b0674a281db0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9630c86f0e0245c2648a9e2b31f54189') in 0.026072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Projectile/Shoot/Resource/Fire/Shoot_Fire.anim
+  artifactKey: Guid(084487dc0b142bf4f90a05e3e3b4c50f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Fire/Shoot_Fire.anim using Guid(084487dc0b142bf4f90a05e3e3b4c50f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aca716b7a428a9e83c88226d4a5af118') in 0.006380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Projectile/Shoot/Resource/6/1_2.png
+  artifactKey: Guid(58c77262122520943811de3833ed0f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/6/1_2.png using Guid(58c77262122520943811de3833ed0f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '560c99406c10d6d0f3675232cf025cd2') in 0.024549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Projectile/Shoot/Resource/Red/Red_14.png
+  artifactKey: Guid(e5195054758723b48a1ddda81f2968e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/Red/Red_14.png using Guid(e5195054758723b48a1ddda81f2968e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c358e82e5511fb53ff05016d176095e1') in 0.023528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Projectile/Shoot/Resource/4/1_5.png
+  artifactKey: Guid(c94f784eda6b16d4eb19acccb8a1d6be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/4/1_5.png using Guid(c94f784eda6b16d4eb19acccb8a1d6be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ac3b9f985b7bded33eff783f7199528') in 0.025695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Projectile/Shoot/Resource/4/1_2.png
+  artifactKey: Guid(72905cad1c841d14c98e6f3da884a5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Projectile/Shoot/Resource/4/1_2.png using Guid(72905cad1c841d14c98e6f3da884a5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '903b37062db1544e2eab70dcd1d4ebc4') in 0.024013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
