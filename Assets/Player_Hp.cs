@@ -5,9 +5,9 @@ using UnityEngine;
 public class Player_Hp : MonoBehaviour
 {
 
-    public int pHp; // 플레이어 hp상태
+    public static int pHp; // 플레이어 hp상태
 
-    public int maxHp = 10; // 플레이어의 최대 체력
+    public static int maxHp = 10; // 플레이어의 최대 체력
     bool isDie = false;
 
     // Start is called before the first frame update
