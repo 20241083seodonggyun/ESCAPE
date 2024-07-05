@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 835716054}
   - component: {fileID: 835716057}
   - component: {fileID: 835716058}
+  - component: {fileID: 835716059}
   m_Layer: 0
   m_Name: Small-8-Direction-Characters_by_AxulArt_12 (1)
   m_TagString: Untagged
@@ -335,10 +336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c1325bae4fc7d47826ce8de311b93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  vx: 0
-  vy: 0
-  leftFlag: 0
 --- !u!114 &835716058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,8 +356,35 @@ MonoBehaviour:
   stopAnime: STOP
   leftupAnime: PLUPL
   rightupAnime: PLUPR
-  leftdownAnime: PLUPDOWNL
-  rightdownAnime: PLUPDOWNR
+  leftdownAnime: PLDOWNL
+  righdownAnime: PLDOWNR
+--- !u!50 &835716059
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835716053}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

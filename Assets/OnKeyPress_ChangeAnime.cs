@@ -19,8 +19,9 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
     public string stopAnime = "STOP";
     public string leftupAnime = "PLUPL";
     public string rightupAnime = "PLUPR";
-    public string leftdownAnime = "PLUPDOWNL";
-    public string rightdownAnime = "PLUPDOWNR";
+    public string leftdownAnime = "PLDOWNL";
+    public string righdownAnime = "PLDOWNR";
+   
 
     string nowAnime = "";
     string oldAnime = "";
@@ -45,7 +46,25 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
         vx = AxisH * speed;
         vy = AxisV * speed;
 
-        if (AxisH > 0)
+        
+        if (AxisH > 0 && AxisV > 0)
+        {
+            nowAnime = rightupAnime;
+        }
+        else if (AxisH > 0 && AxisV < 0)
+        {
+            nowAnime = righdownAnime;
+        }
+        else if (AxisH < 0 && AxisV < 0)
+        {
+            nowAnime = leftdownAnime;
+        }
+        else if (AxisH < 0 && AxisV > 0)
+        {
+            nowAnime = leftupAnime;
+        }
+       
+        else if (AxisH > 0)
         {
             nowAnime = rightAnime;
         }
@@ -61,25 +80,9 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
         {
             nowAnime = downAnime;
         }
-        else if (AxisH == 0 && AxisV == 0)
+        else
         {
             nowAnime = stopAnime;
-        }
-        else if (AxisH > 0 && AxisV > 0)
-        {
-            nowAnime = rightupAnime;
-        }
-        else if (AxisH > 0 && AxisV < 0)
-        {
-            nowAnime = rightdownAnime;
-        }
-        else if(AxisH < 0 && AxisV < 0)
-        {
-            nowAnime = leftdownAnime; 
-        }
-        else if(AxisH < 0 && AxisV > 0)
-        {
-            nowAnime = leftupAnime;
         }
 
 
