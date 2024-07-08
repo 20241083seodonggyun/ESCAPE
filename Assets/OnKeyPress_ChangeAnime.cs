@@ -59,7 +59,7 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
         {
             nowAnime = leftdownAnime;
         }
-        else if (AxisV < 0 && AxisV > 0)
+        else if (AxisH < 0 && AxisV > 0)
         {
             nowAnime = leftupAnime;
         }
@@ -74,11 +74,15 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
         else if (AxisV > 0)
         {
             nowAnime = upAnime;
+            
         }
         else if (AxisV < 0)
         {
             nowAnime = downAnime;
+            
         }
+
+        animaplay();
         
 
 
@@ -86,14 +90,25 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
 
 
 
+
     }
-    private void FixedUpdate()
+    
+    private void animaplay()
     {
         this.transform.Translate(vx / 50, vy / 50, 0);
-        if (nowAnime != oldAnime)
+    if (nowAnime != oldAnime)
         {
             oldAnime = nowAnime;
             animatorController.Play(nowAnime);
         }
     }
+    /*private void FixedUpdate()
+    {
+        this.transform.Translate( vx, vy, 0);
+        if (nowAnime != oldAnime)
+        {
+            oldAnime = nowAnime;
+            animatorController.Play(nowAnime);
+        }
+    }*/
 }
