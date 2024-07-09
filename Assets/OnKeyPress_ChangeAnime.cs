@@ -10,6 +10,7 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
     float vy;
     float AxisH;
     float AxisV;
+<<<<<<< Updated upstream
 
     public float speed = 1;
 
@@ -27,11 +28,27 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
     string nowAnime = "";
     string oldAnime = "";
 
+=======
+    public float speed = 1;
+
+    Animator animatorController;
+    public string upAnime = "WalkUp";
+        public string downAnime = "WalkDown";
+        public string leftAnime = "WalkLeft";
+        public string rightAnime = "WalkRight";
+        public string leftupAnime = "WalkUPL";
+        public string rightupAnime = "WalkUpR";
+    public string leftdownAnime = "WalkDownL";
+        public string rightdownAnime = "WalkDownR";
+
+    string nowAnime = "";
+    string oldAnime = "";
+>>>>>>> Stashed changes
 
     // Start is called before the first frame update
     void Start()
     {
-        vx = 0;
+        vx = 0; 
         vy = 0;
         animatorController = GetComponent<Animator>();
         nowAnime = downAnime;
@@ -47,6 +64,7 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
         vx = AxisH * speed;
         vy = AxisV * speed;
 
+<<<<<<< Updated upstream
         if (AxisH > 0 && AxisV >0)
         {
             nowAnime = rightupAnime;
@@ -64,21 +82,25 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
             nowAnime = leftupAnime;
         }
         if (AxisH > 0)
+=======
+        if(AxisH > 0)
+>>>>>>> Stashed changes
         {
             nowAnime = rightAnime;
         }
-        else if (AxisH < 0)
+        else if(AxisH < 0)
         {
             nowAnime = leftAnime;
         }
-        else if (AxisV > 0)
+        else if(AxisV > 0)
         {
             nowAnime = upAnime;
             
         }
-        else if (AxisV < 0)
+        else if(AxisV < 0)
         {
             nowAnime = downAnime;
+<<<<<<< Updated upstream
             
         } 
 
@@ -111,4 +133,9 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
             animatorController.Play(nowAnime);
         }
     }*/
+=======
+        }
+        
+    }
+>>>>>>> Stashed changes
 }
