@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 1556c1135ea6a8b47b4a4c61348ec701
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638555342607344420
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: hearts_Frame_0
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 249
+      width: 48
+      height: 72
+    spriteID: 043d2c59c5aac66468cd4b6c6f8ab72e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 249}
+  - name: hearts_Frame_1
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 329
+      width: 48
+      height: 72
+    spriteID: 2aba1a94101d7c7459938d148267e224
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 329}
+  - name: hearts_Frame_2
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 409
+      width: 48
+      height: 72
+    spriteID: c577c89c3d9daae4baa6b17a212f2e95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 409}
+  - name: hearts_Frame_3
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 4
+      width: 48
+      height: 72
+    spriteID: e75b0c080ebc79747aeb1132b03a9f4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 4}
+  - name: hearts_Frame_4
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.24657534}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 168
+      width: 48
+      height: 73
+    spriteID: 300de27cb9fa47849a0605d5ef7bb363
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 168}
+  - name: hearts_Frame_5
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.22972971}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 4
+      width: 48
+      height: 74
+    spriteID: 4a1e4dd60b6c32a4393a0d5cd91bcda6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 4}
+  - name: hearts_Frame_6
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.22972971}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 86
+      width: 48
+      height: 74
+    spriteID: 799050d0fa984d74c9540271e5906051
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 86}
+  - name: hearts_Frame_7
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.21333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 251
+      width: 48
+      height: 75
+    spriteID: 6a4297bbce7328d4aa198eaa693e1e9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 251}
+  - name: hearts_Frame_8
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.21333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 334
+      width: 48
+      height: 75
+    spriteID: 29646c0f13308cc4b95f1b9fa7aed9fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 334}
+  - name: hearts_Frame_9
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 84
+      width: 48
+      height: 72
+    spriteID: d09831b8b24eea849b1bef7f2886db61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 84}
+  - name: hearts_Frame_10
+    originalName: 
+    pivot: {x: 1.1020409, y: -0.26027396}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 417
+      width: 49
+      height: 73
+    spriteID: 20f77386b08c429439c99212c6c8a7c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 417}
+  - name: hearts_Frame_11
+    originalName: 
+    pivot: {x: 1.1, y: -0.25675675}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 169
+      width: 50
+      height: 74
+    spriteID: 6b92aa22c1697844594ea264e64ffdc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 169}
+  - name: hearts_Frame_12
+    originalName: 
+    pivot: {x: 1.0980393, y: -0.25675675}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 87
+      width: 51
+      height: 74
+    spriteID: aabe1be546dadcc41b1a4ea3e4d090b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 87}
+  - name: hearts_Frame_13
+    originalName: 
+    pivot: {x: 1.0980393, y: -0.25333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 51
+      height: 75
+    spriteID: e882fe67b81abf64c90a3920ea08aa6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: hearts_Frame_14
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 164
+      width: 48
+      height: 72
+    spriteID: 774bdbcdcb3cc8041bfdf57f19ae8c43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 164}
+  - name: hearts_Frame_15
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 244
+      width: 48
+      height: 72
+    spriteID: 0b3b970295d41e140aefa8cdcda6957c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 244}
+  - name: hearts_Frame_16
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 324
+      width: 48
+      height: 72
+    spriteID: a4a1c8ac55f76c149918fdd8d17a2ef0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 324}
+  - name: hearts_Frame_17
+    originalName: 
+    pivot: {x: 1.1041666, y: -0.2638889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 404
+      width: 48
+      height: 72
+    spriteID: ce500adf41c131044bb096bbd8580aa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 404}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1373859911
+    name: hearts
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: hearts_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: 043d2c59c5aac66468cd4b6c6f8ab72e
+    - name: hearts_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: 2aba1a94101d7c7459938d148267e224
+    - name: hearts_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: c577c89c3d9daae4baa6b17a212f2e95
+    - name: hearts_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: e75b0c080ebc79747aeb1132b03a9f4f
+    - name: hearts_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 3
+        y: 18
+        width: 48
+        height: 73
+      spriteId: 300de27cb9fa47849a0605d5ef7bb363
+    - name: hearts_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 3
+        y: 17
+        width: 48
+        height: 74
+      spriteId: 4a1e4dd60b6c32a4393a0d5cd91bcda6
+    - name: hearts_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 3
+        y: 17
+        width: 48
+        height: 74
+      spriteId: 799050d0fa984d74c9540271e5906051
+    - name: hearts_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 3
+        y: 16
+        width: 48
+        height: 75
+      spriteId: 6a4297bbce7328d4aa198eaa693e1e9f
+    - name: hearts_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 3
+        y: 16
+        width: 48
+        height: 75
+      spriteId: 29646c0f13308cc4b95f1b9fa7aed9fe
+    - name: hearts_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: d09831b8b24eea849b1bef7f2886db61
+    - name: hearts_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 2
+        y: 19
+        width: 49
+        height: 73
+      spriteId: 20f77386b08c429439c99212c6c8a7c4
+    - name: hearts_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 19
+        width: 50
+        height: 74
+      spriteId: 6b92aa22c1697844594ea264e64ffdc4
+    - name: hearts_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 19
+        width: 51
+        height: 74
+      spriteId: aabe1be546dadcc41b1a4ea3e4d090b3
+    - name: hearts_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 19
+        width: 51
+        height: 75
+      spriteId: e882fe67b81abf64c90a3920ea08aa6c
+    - name: hearts_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: 774bdbcdcb3cc8041bfdf57f19ae8c43
+    - name: hearts_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: 0b3b970295d41e140aefa8cdcda6957c
+    - name: hearts_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: a4a1c8ac55f76c149918fdd8d17a2ef0
+    - name: hearts_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 3
+        y: 19
+        width: 48
+        height: 72
+      spriteId: ce500adf41c131044bb096bbd8580aa9
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 112, y: 96}
