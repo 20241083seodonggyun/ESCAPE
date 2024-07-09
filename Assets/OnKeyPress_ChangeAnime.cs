@@ -47,7 +47,7 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
         vx = AxisH * speed;
         vy = AxisV * speed;
 
-        if (AxisH > 0 && AxisV >0)
+        /*if (AxisH > 0 && AxisV >0)
         {
             nowAnime = rightupAnime;
         }
@@ -80,7 +80,7 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
         {
             nowAnime = downAnime;
             
-        }
+        } */
 
         animaplay();
         
